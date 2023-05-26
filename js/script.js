@@ -43,4 +43,5 @@ if (userAge < 18){
 console.log(price);
 
 //6. Stampare il prezzo finale sull'elemento del DOM
+document.getElementById('target').innerText = "Il prezzo del biglietto è" + ' ' + price;
 
